@@ -43,4 +43,4 @@ jobs:
        - name: Running Dumpyara
          working-directory: firmware_dumper
          run: |
-              ./dump.sh "$https://bigota.d.miui.com/V13.0.6.0.SCVCNXM/miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip"
+              ./dump.sh "https://bigota.d.miui.com/V13.0.6.0.SCVCNXM/miui_EARTH_V13.0.6.0.SCVCNXM_916002e6e1_12.0.zip"
