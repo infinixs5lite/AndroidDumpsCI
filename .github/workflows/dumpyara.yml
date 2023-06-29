@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://drive.google.com/file/d/1NQhuoks00gPE5WZfZkLh9hfZpbPmunwf/view?usp=sharing
+  ROM_URL: https://xiaomirom.com/en/download/redmi-12c-poco-c55-earth-stable-V13.0.7.0.SCVMIXM
 
 jobs:
   build:
@@ -43,4 +43,4 @@ jobs:
        - name: Running Dumpyara
          working-directory: firmware_dumper
          run: |
-              ./dump.sh "https://drive.google.com/file/d/1NQhuoks00gPE5WZfZkLh9hfZpbPmunwf/view?usp=sharing"
+              ./dump.sh "https://xiaomirom.com/en/download/redmi-12c-poco-c55-earth-stable-V13.0.7.0.SCVMIXM"
