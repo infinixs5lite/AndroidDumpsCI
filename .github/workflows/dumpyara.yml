@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://mgb1.androidfilehost.com/dl/lxbQJ8zVl_RE9Xois9Lq-w/1712093733/4279422670115728936/%5BHovatek%5D_Infinix_HOT_12_%28X6817-H6920ABCDEFHIJ-S-OP-221201V1317%29.zip
+  ROM_URL: https://drive.usercontent.google.com/download?id=11vBL0_d7QyBCZiQ0bxAZvDeM77gjFuos&export=download&authuser=0&confirm=t&uuid=647cf73b-b664-4e1f-b725-889fd344712a&at=APZUnTUfGZWY7Gjyla_bDdguywla%3A1714290336020.zip
 
 jobs:
   build:
@@ -43,4 +43,4 @@ jobs:
        - name: Running Dumpyara
          working-directory: firmware_dumper
          run: |
-              ./dump.sh "https://mgb1.androidfilehost.com/dl/lxbQJ8zVl_RE9Xois9Lq-w/1712093733/4279422670115728936/%5BHovatek%5D_Infinix_HOT_12_%28X6817-H6920ABCDEFHIJ-S-OP-221201V1317%29.zip"
+              ./dump.sh "https://drive.usercontent.google.com/download?id=11vBL0_d7QyBCZiQ0bxAZvDeM77gjFuos&export=download&authuser=0&confirm=t&uuid=647cf73b-b664-4e1f-b725-889fd344712a&at=APZUnTUfGZWY7Gjyla_bDdguywla%3A1714290336020.zip"
