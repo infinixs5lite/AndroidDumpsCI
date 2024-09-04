@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://drive.usercontent.google.com/download?id=11vBL0_d7QyBCZiQ0bxAZvDeM77gjFuos&export=download&authuser=0&confirm=t&uuid=647cf73b-b664-4e1f-b725-889fd344712a&at=APZUnTUfGZWY7Gjyla_bDdguywla%3A1714290336020.zip
+  ROM_URL: https://www.mediafire.com/file/nntrozbrfo5ntkr/Oukitel_WP15_MT6833_EEA_V1.6.6.1_210731.zip
 
 jobs:
   build:
@@ -43,4 +43,4 @@ jobs:
        - name: Running Dumpyara
          working-directory: firmware_dumper
          run: |
-              ./dump.sh "https://drive.usercontent.google.com/download?id=11vBL0_d7QyBCZiQ0bxAZvDeM77gjFuos&export=download&authuser=0&confirm=t&uuid=647cf73b-b664-4e1f-b725-889fd344712a&at=APZUnTUfGZWY7Gjyla_bDdguywla%3A1714290336020.zip"
+              ./dump.sh "https://www.mediafire.com/file/nntrozbrfo5ntkr/Oukitel_WP15_MT6833_EEA_V1.6.6.1_210731.zip"
